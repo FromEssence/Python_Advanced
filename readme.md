@@ -1,4 +1,3 @@
-## Python Feature
 datetime 模块
 
 1. 主要的类
@@ -18,3 +17,9 @@ datetime 模块
 3. 时间戳
    - 
 4. 时间加减法
+   - timedelta()方法
+      ``` python
+         today = datetime.datetime.now()
+         yestoday = today - datetime.timedelta(days=1)
+         oneHourAgo = today - datetime.timedelta(hours=1)
+      ```
