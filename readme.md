@@ -40,8 +40,14 @@ OOP
     myPen = Pen()
     myPen.sharp(0.5)
     print(myPen.width)
+```python
+   #继承魔术方法
+   def __str__(self):
+       s = super().__str__(self)
+       s = s+self.other
+```
+   特殊方法 (magic method)
 
-特殊方法 (magic method)
 
 1. 基本概念
    在类中实现一些特殊方法，用于方便使用python的一些内置操作
